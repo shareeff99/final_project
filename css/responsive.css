@@ -42,6 +42,14 @@
         border-radius: 0 0 8px 8px;
     }
 
+    .volumeBox input#volume {
+        display: none;
+    }
+
+    .time_bar {
+        width: 25%;
+    }
+
     /* single campaign style */
     .campaign {
         margin-bottom: 20px;
@@ -203,6 +211,10 @@
         border-radius: 0 0 9px 9px;
     }
 
+    .volumeBox input#volume {
+        display: none;
+    }
+
     /* single campaign style */
     .campaign .artcle_content .campaign_numbers {
         font-size: 14px;
@@ -346,6 +358,10 @@
 
     #theVideoBox:hover .controls {
         border-radius: 0 0 9px 9px;
+    }
+
+    .volumeBox input#volume {
+        display: none;
     }
 
     /*** activites section ***/
