@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.144" height="91.144" viewBox="0 0 91.144 91.144">
+  <g id="grow_icon" transform="translate(2.5 2.5)">
+    <path id="Path_76" data-name="Path 76" d="M86.144,43.072A43.072,43.072,0,1,1,43.072,0,43.072,43.072,0,0,1,86.144,43.072" transform="translate(86.144 86.144) rotate(180)" fill="#fff" stroke="#4494d0" stroke-width="5"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(-2 -1.937)">
+      <g id="Group_18" data-name="Group 18" transform="matrix(-0.966, -0.259, 0.259, -0.966, 50.289, 66.828)">
+        <path id="Path_57" data-name="Path 57" d="M51.126,16.35l-3.331-3.331a10.382,10.382,0,0,0-14.639,0l-9.229,9.229" transform="matrix(0.839, -0.545, 0.545, 0.839, -37.509, 33.428)" fill="none" stroke="#4494d0" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7"/>
+      </g>
+      <g id="Group_28" data-name="Group 28" transform="matrix(0.966, 0.259, -0.259, 0.966, 34.709, 23.19)">
+        <path id="Path_57-2" data-name="Path 57" d="M51.126,16.35l-3.331-3.331a10.382,10.382,0,0,0-14.639,0l-9.229,9.229" transform="matrix(0.839, -0.545, 0.545, 0.839, -37.509, 33.428)" fill="none" stroke="#4494d0" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7"/>
+      </g>
+    </g>
+  </g>
+</svg>

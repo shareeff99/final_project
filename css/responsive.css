@@ -1,0 +1,474 @@
+/* XS - Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    
+    /*** navbar ***/  
+    .navbar-expand-lg .navbar-collapse {
+        background-color: white;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 45%;
+    }
+
+    #myBody .nav-link {
+        color: black;
+    }
+
+    /* active nav links */
+    #myBody .nav-link.active {
+        display: none;
+    }    
+    
+    #myBody .nav-link.active:after {
+        display: none;
+    }
+
+    .hero_img img {
+        object-position: 200px;
+    }
+
+    /*** hero ***/
+
+    .videoButtons {
+        padding: 0 20%;
+    }
+
+    /* video controls */
+    .controls {
+        width: 96%;
+    }
+
+    #theVideoBox:hover .controls {
+        border-radius: 0 0 8px 8px;
+    }
+
+    /* single campaign style */
+    .campaign {
+        margin-bottom: 20px;
+    }
+
+    /*** quote section ***/
+    .quote_section h3 {
+        font-size: 30px;
+    }
+
+    /*** quote section ***/
+    .quoteIcon {
+        top: -30px;
+        right: 10px;
+    }
+
+    /*** activites section ***/
+    .activites_section .campaign {
+        margin-bottom: 20px;
+    }
+
+    /*** App Content section ***/
+    .app_content {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 20px;
+    }
+
+    .app_section .app_content > * {
+        text-align: center;
+    }
+
+    /*** email input ***/
+    .email_form_box form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .email_form_box form h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    input#f-email {
+        text-align: center;
+        width: 70%;
+    }
+
+    form input {
+        margin-bottom: 10px;
+    }
+
+    /*** footer ***/
+    .footer_pgs_links {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_social_media {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+
+    /*** footer ***/
+    footer {
+        background-size: cover;
+        background-position: -640px 50%;
+    }
+
+    .open_map_card {
+        display: none;
+    }
+
+/*********************
+    PROJECTS PAGE
+*********************/
+
+    .about_section p{
+        width: 100%;
+    }
+
+    .vision p {
+        width: 100%;
+    }
+
+    .single_campaign_box {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-template-areas:
+            "donate_map_box video"
+            "donate_map_box video";
+    }
+
+    .single_campaign_box .campaignVideo, .donate_map_box {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+/* SM - Small devices (landscape phones, 576px and up to 768)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*** navbar ***/  
+    .navbar-expand-lg .navbar-collapse {
+        background-color: white;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 60%;
+    }
+
+    #myBody .nav-link {
+        color: black;
+    }
+
+    /* active nav links */
+    #myBody .nav-link.active:after {
+        display: none;
+    }
+    
+    .hero_img img {
+        object-position: 200px;
+    }
+
+    /*** hero ***/
+
+    .videoButtons {
+        padding: 0 20%;
+    }
+
+    /* video controls */
+    .controls {
+        width: 95.7%;
+    }
+
+    #theVideoBox:hover .controls {
+        border-radius: 0 0 9px 9px;
+    }
+
+    /* single campaign style */
+    .campaign .artcle_content .campaign_numbers {
+        font-size: 14px;
+    }
+
+    /*** quote section ***/
+    .quote_section h3 {
+        font-size: 30px;
+    }
+
+    /*** activites section ***/
+    .activites_section .campaign {
+         margin-bottom: 20px;
+    }
+
+    /*** email input ***/
+    .email_form_box form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    input#f-email {
+        text-align: center;
+        width: 50%;
+    }
+
+    form input {
+        margin-bottom: 10px;
+    }
+
+    /*** App Content section ***/
+    .app_content {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 20px;
+    }
+
+    .app_section .app_content > * {
+        text-align: center;
+    }
+
+    /*** footer ***/
+    .footer_pgs_links {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer_social_media {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                    -ms-grid-row-align: center;
+                align-items: center;
+    }
+
+    /*** footer ***/
+    footer {
+        background-size: cover;
+        background-position: -528px 50%;
+    }
+
+    .open_map_card {
+        display: none;
+    }
+
+/*********************
+    PROJECTS PAGE
+*********************/
+
+    .about_section p{
+        width: 100%;
+    }
+
+    .vision p {
+        width: 100%;
+    }
+
+    .single_campaign_box {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-template-areas:
+            "donate_map_box video"
+            "donate_map_box video";
+    }
+
+    .single_campaign_box .campaignVideo, .donate_map_box {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* MD - Medium devices (tablets, 768px and up to 992)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+    /*** navbar ***/  
+    .navbar-expand-lg .navbar-collapse {
+        background-color: white;
+        padding-right: 20px;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 70%;
+    }
+
+    #myBody .nav-link {
+        color: black;
+    }
+
+    /* active nav links */
+    #myBody .nav-link.active:after {
+        display: none;
+    }    /* active nav links */
+    #myBody .nav-link.active:after {
+        display: none;
+    }
+
+    .hero_img img {
+        object-position: 200px;
+    }
+
+    /* video controls */
+    .controls {
+        width: 96.7%;
+    }
+
+
+    #theVideoBox:hover .controls {
+        border-radius: 0 0 9px 9px;
+    }
+
+    /*** activites section ***/
+    .activites_section .campaign {
+        margin-bottom: 20px;
+    }
+
+    /*** email input ***/
+    .email_form_box form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    input#f-email {
+        text-align: center;
+        width: 50%;
+    }
+
+    form input {
+        margin-bottom: 10px;
+    }
+
+    /*** footer ***/
+    footer {
+        background-size: cover;
+        background-position: -200px 50%;
+    }
+
+    .open_map_card {
+        display: none;
+    }
+
+/*********************
+    PROJECTS PAGE
+*********************/
+
+    .about_section p{
+        width: 100%;
+    }
+
+    .vision p {
+        width: 100%;
+    }
+
+    .single_campaign_box {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        gap: 0px 3%;
+        grid-template-areas:
+            "donate_map_box video"
+            "donate_map_box video";
+    }
+
+    .single_campaign_box .campaignVideo, .donate_map_box {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+/* LG - Large devices (desktops, 992px and up to 1200)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    /*** navbar ***/  
+    div#navbarNav {
+        margin-right: 12%;
+    }
+
+    /* video controls */
+    .controls {
+        width: 81%;
+    }
+
+    .open_map_card {
+        display: none;
+    }
+
+    .projectMap iframe {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+
+
+
+
+
+/* XL - Extra large devices (large desktops, 1200px and up to 1400)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+    /*** navbar ***/  
+    div#navbarNav {
+        margin-right: 19%;
+    }
+
+    .projectMap iframe {
+        width: 100%;
+        height: 217px;
+    }
+}
+
+
+
+
+
+
+/* XXL - Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+}

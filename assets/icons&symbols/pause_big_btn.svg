@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.163" height="108.163" viewBox="0 0 108.163 108.163">
+  <defs>
+    <filter id="Path_73" x="0" y="0" width="108.163" height="108.163" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="pause_big_btn" transform="translate(9 9)">
+    <g transform="matrix(1, 0, 0, 1, -9, -9)" filter="url(#Path_73)">
+      <path id="Path_73-2" data-name="Path 73" d="M90.163,45.081A45.081,45.081,0,1,1,45.081,0,45.081,45.081,0,0,1,90.163,45.081" transform="translate(9 9)" fill="#fff"/>
+    </g>
+    <path id="Union_2" data-name="Union 2" d="M.053,44.794V25.821c-.018-.076-.036-.153-.053-.232V5.8a5.8,5.8,0,0,1,11.6,0V24.769c.018.076.036.153.053.231V44.794a5.8,5.8,0,0,1-11.6,0Z" transform="translate(26.563 21.197)" fill="#5cb08a"/>
+    <path id="Union_3" data-name="Union 3" d="M.053,44.794V25.821c-.018-.076-.036-.153-.053-.232V5.8a5.8,5.8,0,0,1,11.6,0V24.769c.018.076.036.153.053.231V44.794a5.8,5.8,0,0,1-11.6,0Z" transform="translate(51.951 21.197)" fill="#5cb08a"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="590" viewBox="0 0 1920 590">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_27" data-name="Rectangle 27" width="1920" height="590" transform="translate(0 98)" fill="#f6f6f6"/>
+    </clipPath>
+  </defs>
+  <g id="hero_elemnts" transform="translate(0 -98)" clip-path="url(#clip-path)">
+    <path id="orange_hero" d="M23.927,303.183A25,25,0,0,1,6.249,260.506L208.318,58.429c98.124-98.115,257.774-98.114,355.888,0L766.283,260.506a25,25,0,1,1-35.355,35.355L528.851,93.784c-78.62-78.62-206.55-78.62-285.178,0L41.6,295.861A24.923,24.923,0,0,1,23.927,303.183Z" transform="translate(153.567 779.266) rotate(-90)" fill="#f19544"/>
+    <path id="blue_hero" d="M23.927,303.183A25,25,0,0,1,6.249,260.506L208.318,58.429c98.124-98.115,257.774-98.114,355.888,0L766.283,260.506a25,25,0,1,1-35.355,35.355L528.851,93.784c-78.62-78.62-206.55-78.62-285.178,0L41.6,295.861A24.923,24.923,0,0,1,23.927,303.183Z" transform="translate(1766.433 6.734) rotate(90)" fill="#4494d0"/>
+  </g>
+</svg>
