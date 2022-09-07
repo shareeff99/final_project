@@ -466,10 +466,14 @@ input[type="submit"]:hover {
 
     .videoButtons button#resize:before {
         content: url("../assets/icons&symbols/increase_btn.svg") !important;
+    }   
+
+    .videoButtons button#volumeIcon.unMute:before {
+        content: url("../assets/icons&symbols/volumeIcon_btn.svg") !important;
     }
 
-    .videoButtons button#volumeIcon:before {
-        content: url("../assets/icons&symbols/volumeIcon_btn.svg") !important;
+    .videoButtons button#volumeIcon.mute:before {
+        content: url("../assets/icons&symbols/volumeIconMuted_btn.svg") !important;
     }
 
     .volumeBox {
@@ -575,6 +579,7 @@ input[type="submit"]:hover {
         transition: 0.3s;
         background: rgba(0, 0, 0, 0.6);
         cursor: pointer;
+        direction:ltr;
       }
       
       .video-progress-filled {
