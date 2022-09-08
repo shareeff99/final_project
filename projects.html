@@ -190,7 +190,7 @@
 				<div class="row" id="theVideoBox">
 
 					<video class="myVideo col-lg-10 offset-lg-1" id="videoPlayer"  poster="assets/images/video-poster-img-01.jpg">
-						
+							
 						<source src="assets/videos/סרטון פרויקט הגמר.webm" type="video/webm">
 						<source src="assets/videos/סרטון פרויקט הגמר.mp4" type="video/mp4">
 					</video>		
@@ -209,8 +209,9 @@
 						<div class="videoButtons">
 							<button id="resize" class="increase"></button>	
 							<button id="play_pause"></button>
+
 							<div class="volumeBox">
-								<button id="volumeIcon" class="volumeIcon"></button>
+								<button id="volumeIcon" class="unMute"></button>
 								<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
 							</div>
 					
@@ -500,33 +501,7 @@
 				</div>
 			</section>
 			<!--end of Q&A section-->
-
-
-			<a href="map_page.html" class="open_map_card">
-				<svg id="open_card_map" data-name="open card map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81.873" height="81.756" viewBox="0 0 81.873 81.756">
-					<defs id="erea">
-					<clipPath id="clip-path">
-						<rect id="Rectangle_31" data-name="Rectangle 31" width="81.873" height="81.756" fill="none"/>
-					</clipPath>
-					
-					<linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-						<stop offset="0" stop-color="#fff" stop-opacity="0"/>
-						<stop offset="1" stop-color="#fff"/>
-					</linearGradient>
-					</defs>
-
-					<g id="Group_40" data-name="Group 40" clip-path="url(#clip-path)">
-					<path id="Path_103" data-name="Path 103" d="M76.4,38.2A38.2,38.2,0,1,1,38.2,0,38.2,38.2,0,0,1,76.4,38.2" transform="translate(79.136 79.077) rotate(180)" fill="#f19544"/>
-
-					<path id="mapOutline" data-name="Path 106" d="M31.121,15.666a13.549,13.549,0,0,0-5.381-9.2L18.05.729A3.665,3.665,0,0,0,15.619.007a3.669,3.669,0,0,0-2.433.722L5.5,6.465A13.661,13.661,0,0,0,2.983,25.933l9.525,11.946a3.677,3.677,0,0,0,2.883,1.388c.076,0,.151,0,.227-.009s.151.009.227.009a3.677,3.677,0,0,0,2.883-1.388l9.526-11.946a13.551,13.551,0,0,0,2.868-10.267m-8.63,5.672-6.874,8.621L8.744,21.338A6.292,6.292,0,0,1,9.9,12.372l5.716-4.263,5.716,4.263a6.291,6.291,0,0,1,1.158,8.966" transform="translate(25.318 18.496)" fill="#fff"/>
-					<path id="mapPoint" data-name="Path 107" d="M29.881,41.95a5.293,5.293,0,1,1,7.485,0,5.293,5.293,0,0,1-7.485,0" transform="translate(7.427 -2.29)" fill="#fff"/>
-					
-					<path id="Path_108" data-name="Path 108" d="M43.948,6.457c-.086-.352-.483-.695-1.191-.964L32.8,1.7c-5.964-2.27-15.668-2.27-21.633,0L1.2,5.493c-.707.27-1.1.613-1.19.964a.6.6,0,0,0-.008.219.6.6,0,0,0,.008.218c.087.352.483.7,1.19.964l9.96,3.791c5.963,2.27,15.668,2.27,21.633,0l9.96-3.791c.708-.27,1.1-.612,1.191-.964a.6.6,0,0,0,.008-.218.6.6,0,0,0-.008-.219M27.959,9.979A19.459,19.459,0,0,1,16,9.979l-8.679-3.3L16,3.372a19.461,19.461,0,0,1,11.956,0l8.678,3.3Z" transform="translate(18.955 49.907)" fill="url(#linear-gradient)"/>
-					</g>
-				</svg>
-			</a>
-
-
+			
 
 			<!-- email form section -->
 			<div class="email_form">

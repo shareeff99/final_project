@@ -893,20 +893,6 @@ input[type="submit"]:hover {
         cursor: default;
     }
 
-    .open_map_card {
-        position: fixed;
-        bottom: 80px;
-        right: 8%;
-    }
-
-    .open_map_card #erea {
-        display: none;
-    }
-
-    .open_map_card:hover #erea{
-        display: block;
-    }
-
     /* accordion */
     .accordion-flush .accordion-item {
         border-radius: 10px;
@@ -1012,6 +998,10 @@ input[type="submit"]:hover {
 
     #social_action button:hover {
         background-color: transparent;
+    }
+
+    .carousel-inner {
+        border-radius: 10px;
     }
 
 /*********************
