@@ -111,7 +111,7 @@ h2 {
 h3 {
     font-size: 25.6px;
     font-size: 1.6rem;
-    text-align: right;
+    text-align: center;
 }
 
 p {
@@ -958,60 +958,6 @@ input[type="submit"]:hover {
         background-color: var(--third-color);
     }
 
-
-/*********************
-       MAP PAGE
-*********************/
-    .map_card {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient:horizontal;
-        -webkit-box-direction:normal;
-            -ms-flex-direction:row;
-                flex-direction:row;
-    }
-
-    .il_map, .all_projects{
-        width: 49vw;
-        height: 100vh;
-    }
-
-    .il_map {
-        background-color: var(--light-grayBG);
-        position: relative;
-    }
-
-    .il_map svg {
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-        height: 90%;
-    }
-
-    .il_map svg path{
-        cursor: pointer;    
-    }
-
-    .il_map svg path:hover{
-        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.8" /><feFuncG type="linear" slope="0.8" /><feFuncB type="linear" slope="0.8" /></feComponentTransfer></filter></svg>#filter');
-        -webkit-filter: brightness(0.8);
-                filter: brightness(0.8);
-    }
-
-    .all_projects {
-        padding-top:30px ;
-        padding-right: 5%;
-        overflow-X: hidden;
-        overflow-y: scroll;
-    }
-
-    .all_projects .campaign {
-        margin-bottom: 20px;
-    }
-
 /*********************
     Social Action
 *********************/
@@ -1155,6 +1101,10 @@ input[type="submit"]:hover {
         -webkit-transform: translateY(0);
         transform: translateY(-9px);
         border-radius: 0 0 14px 14px;
+    }
+
+    .single_campaign_content .container {
+        max-width: 800px;
     }
 
     
