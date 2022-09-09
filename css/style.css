@@ -1048,6 +1048,7 @@ input[type="submit"]:hover {
         padding: 20px;
         height: 170px;
         margin-bottom: 20px;
+        background-color: #fff;
     }
 
     .campaignData button {
@@ -1103,9 +1104,7 @@ input[type="submit"]:hover {
         border-radius: 0 0 14px 14px;
     }
 
-    .single_campaign_content .container {
-        max-width: 800px;
-    }
+    
 
     
 
