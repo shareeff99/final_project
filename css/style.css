@@ -989,7 +989,7 @@ input[type="submit"]:hover {
     }
 
 /*********************
-    PROJECTS PAGE
+    PROJECT SINGLE PAGE
 *********************/
 
     .about_section p{
@@ -1049,12 +1049,8 @@ input[type="submit"]:hover {
                 justify-content: space-between;
     }
 
-    .campaignVideo video {
+    .campaignVideo img {
         width: 100%;
-    }
-
-    .campaignVideo .controls {
-        width: 96.8%;
     }
 
     .campaignData {
@@ -1082,6 +1078,12 @@ input[type="submit"]:hover {
           "donate_map_box video"; 
     }
 
+    .campaignImg img {
+        width: 100%;
+        border-radius: 10px;
+        border: solid 1px #dcdcdc;
+    }
+
     .donate_map_box {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1107,16 +1109,7 @@ input[type="submit"]:hover {
         width: 100%;
         height: 280px;
         border-radius: 10px;
-    }
-
-    .single_campaign_box .campaignVideo .controls {
-        width: 100%;
-    }
-
-    .single_campaign_box #theVideoBox:hover .controls {
-        -webkit-transform: translateY(0);
-        transform: translateY(-9px);
-        border-radius: 0 0 14px 14px;
+        border: solid 1px #dcdcdc !important;
     }
 
     
