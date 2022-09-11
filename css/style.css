@@ -1193,6 +1193,7 @@ input[type="submit"]:hover {
       .cd-image-label {
         background-color: var(--primery-color);
         border-radius: 10px;
+        font-size: 1.5rem;
       }
 
       .is-visible .cd-resize-img {
@@ -1236,6 +1237,7 @@ input[type="submit"]:hover {
           width: 50%;
         }
       }
+      
       .cd-handle {
         position: absolute;
         height: 44px;
@@ -1246,7 +1248,7 @@ input[type="submit"]:hover {
         margin-left: -22px;
         margin-top: -22px;
         border-radius: 50%;
-        background: #dc717d url("../img/cd-arrows.svg") no-repeat center center;
+        background: var(--call2action) url("../img/cd-arrows.svg") no-repeat center center;
         cursor: move;
         box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
         opacity: 0;
@@ -1256,6 +1258,12 @@ input[type="submit"]:hover {
         -o-transform: translate3d(0, 0, 0) scale(0);
         transform: translate3d(0, 0, 0) scale(0);
       }
+
+
+      .cd-handle:hover {
+        background: var(--call2actionHover) url("../img/cd-arrows.svg") no-repeat center center;
+      }
+
       .cd-handle.draggable {
         /* change background color when element is active */
         background-color: #445b7c;
