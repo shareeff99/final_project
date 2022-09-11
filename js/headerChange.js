@@ -19,7 +19,7 @@ function headerChange() {
         myLogo.classList.add("changeHeight");
         logoTitle.classList.add("logoColorChange")
         logoSlogan.style.fill = "#000";
-        activeLink.style.color = "var(--third-color)";
+        activeLink.style.color = "var(--call2action)";
     }
 
     else {
@@ -27,6 +27,6 @@ function headerChange() {
         myLogo.classList.remove("changeHeight");
         logoTitle.classList.remove("logoColorChange")
         logoSlogan.style.fill = "#fff";
-        activeLink.style.color = "var(--third-color)";
+        activeLink.style.color = "var(--call2action)";
     }
 }
