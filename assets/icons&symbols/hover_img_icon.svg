@@ -1,13 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64.764" height="64.764" viewBox="0 0 64.764 64.764">
-  <defs>
-    <clipPath id="clip-path">
-      <rect id="Rectangle_28" data-name="Rectangle 28" width="64.764" height="64.764" fill="none"/>
-    </clipPath>
-  </defs>
-  <g id="Group_24" data-name="Group 24" transform="translate(64.764 64.764) rotate(180)">
-    <g id="Group_24-2" data-name="Group 24" clip-path="url(#clip-path)">
-      <path id="Path_73" data-name="Path 73" d="M64.764,32.382A32.382,32.382,0,1,1,32.382,0,32.382,32.382,0,0,1,64.764,32.382" transform="translate(0 0)" fill="#fff"/>
-      <path id="Path_74" data-name="Path 74" d="M114.166,88.524a4.164,4.164,0,0,1-2.945-7.109l10.052-10.052a7.119,7.119,0,0,0,0-10.056L111.221,51.255a4.164,4.164,0,0,1,5.889-5.889l10.052,10.052a15.457,15.457,0,0,1,0,21.834L117.111,87.3A4.151,4.151,0,0,1,114.166,88.524Z" transform="translate(-88.458 -33.953)" fill="#5cb08a"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64.764" height="64.764" viewBox="0 0 64.764 64.764">
+  <g id="hover_img_arrow" transform="translate(64.764 64.764) rotate(180)">
+    <path id="Path_73" data-name="Path 73" d="M64.764,32.382A32.382,32.382,0,1,1,32.382,0,32.382,32.382,0,0,1,64.764,32.382" fill="#fff"/>
+    <path id="Path_74" data-name="Path 74" d="M114.166,88.524a4.164,4.164,0,0,1-2.945-7.109l10.052-10.052a7.119,7.119,0,0,0,0-10.056L111.221,51.255a4.164,4.164,0,0,1,5.889-5.889l10.052,10.052a15.457,15.457,0,0,1,0,21.834L117.111,87.3A4.151,4.151,0,0,1,114.166,88.524Z" transform="translate(-88.458 -33.953)" fill="#55a5e2"/>
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="64.764" height="64.764" fill="none"/>
   </g>
 </svg>

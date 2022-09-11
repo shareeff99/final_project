@@ -167,6 +167,10 @@
     .single_campaign_box .campaignVideo, .donate_map_box {
         margin-bottom: 20px;
     }
+    
+    .icon_numbers p {
+        width: 100%;
+    }
 
 }
 
@@ -321,6 +325,14 @@
     .single_campaign_box .campaignVideo, .donate_map_box {
         margin-bottom: 20px;
     }
+
+    .icon_numbers {
+        margin-bottom: 30px;
+    }
+
+    .icon_numbers p {
+        width: 100%;
+    }
 }
 
 
@@ -433,6 +445,13 @@
         margin-bottom: 20px;
     }
 
+    .icon_numbers h3 {
+        font-size: 2.4rem;
+    }
+
+    .icon_numbers p {
+        width: 100%;
+    }
 }
 
 
@@ -461,6 +480,14 @@
     .projectMap iframe {
         width: 100%;
         height: 150px;
+    }
+
+    .icon_numbers h3 {
+        font-size: 3rem;
+    }
+
+    .icon_numbers p {
+        width: 100%;
     }
 }
 

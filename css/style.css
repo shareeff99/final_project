@@ -414,6 +414,10 @@ input[type="submit"]:hover {
                 animation: 0.3s ease all;
     }
 
+    .videoButtons button:hover {
+        opacity: 0.8;
+    }
+
     .videoButtons button:active {
         filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.5" /><feFuncG type="linear" slope="0.5" /><feFuncB type="linear" slope="0.5" /></feComponentTransfer></filter></svg>#filter');
         -webkit-filter: brightness(0.5);
@@ -480,7 +484,7 @@ input[type="submit"]:hover {
         position: absolute;
         right: 60px;
         top: 18%;
-        display: block  ;
+        display: block;
     }
 
     .time_bar {
@@ -529,6 +533,10 @@ input[type="submit"]:hover {
         width: auto;
     }
 
+    #play_big_btn:hover {
+        opacity: 0.8;
+    }
+
     #play_big_btn:after {
         content: url("../assets/icons&symbols/play_big_btn.svg");
     }
@@ -555,6 +563,7 @@ input[type="submit"]:hover {
       input[type="range"]:focus {
         outline: none;
       }
+
       input[type="range"]::-webkit-slider-runnable-track {
         width: 100%;
         height: 10px;
@@ -562,13 +571,18 @@ input[type="submit"]:hover {
         background: rgb(255, 255, 255);
         border-radius: 10px;;
       }
+
       input[type="range"]::-webkit-slider-thumb {
         -webkit-appearance: none;
         height: 10px;
         width: 10px;
-        background: var(--secondary-color);
+        background: var(--call2action);
         border-radius: 50%;
         cursor: pointer;
+      }
+
+      input[type="range"]::-webkit-slider-thumb:hover {
+        background: var(--call2actionHover);
       }
 
     .video-progress {
@@ -587,7 +601,11 @@ input[type="submit"]:hover {
       
       .video-progress-filled {
         width: 0;
-        background: orangered;
+        background: var(--call2action);
+      }
+      
+      .video-progress-filled:hover {
+        background: var(--call2actionHover);
       }
       
       .video-player:hover .video-progress {
@@ -705,10 +723,13 @@ input[type="submit"]:hover {
     }
 
     .icon_numbers h3 {
-        font-size: 80px;
         font-size: 3rem;
         margin: 0;
         color: var(--secondary-color);
+    }
+
+    .icon_numbers p {
+        width: 70%;
     }
 
 
