@@ -172,6 +172,14 @@
         width: 100%;
     }
 
+    .campaignImg {
+        margin-bottom: 20PX;
+    }
+
+    .cd-image-label {
+        font-size: 1rem;
+    }
+
 }
 
 
@@ -333,6 +341,10 @@
     .icon_numbers p {
         width: 100%;
     }
+
+    .campaignImg {
+        margin-bottom: 20PX;
+    }
 }
 
 
@@ -452,6 +464,10 @@
     .icon_numbers p {
         width: 100%;
     }
+
+    .campaignImg {
+        margin-bottom: 20PX;
+    }
 }
 
 
@@ -479,7 +495,7 @@
 
     .projectMap iframe {
         width: 100%;
-        height: 150px;
+        height: 140px;
     }
 
     .icon_numbers h3 {
@@ -506,7 +522,7 @@
 
     .projectMap iframe {
         width: 100%;
-        height: 217px;
+        height: 200px;
     }
 }
 
