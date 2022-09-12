@@ -24,7 +24,8 @@
     }
 
     .hero_img img {
-        object-position: 200px;
+        -o-object-position: 200px;
+           object-position: 200px;
     }
 
     /*** hero ***/
@@ -68,11 +69,6 @@
     .quoteIcon {
         top: -30px;
         right: 10px;
-    }
-
-    /*** activites section ***/
-    .activites_section .campaign {
-        margin-bottom: 20px;
     }
 
     /*** App Content section ***/
@@ -154,10 +150,13 @@
     }
 
     .single_campaign_box {
+        display: -ms-grid;
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 100%;
-        grid-template-rows: 1fr;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        -ms-grid-rows: 1fr;
+            grid-template-rows: 1fr;
         gap: 0px 3%;
         grid-template-areas:
             "donate_map_box video"
@@ -209,7 +208,8 @@
     }
     
     .hero_img img {
-        object-position: 200px;
+        -o-object-position: 200px;
+           object-position: 200px;
     }
 
     /*** hero ***/
@@ -229,11 +229,19 @@
 
     .volumeBox input#volume {
         display: none;
-    }
+    }    
 
     /* single campaign style */
+    .campaign {
+        margin-bottom: 20px;
+    }
+
     .campaign .artcle_content .campaign_numbers {
         font-size: 14px;
+    }
+
+    .campaign .artcle_content p {
+        font-size: 0.9rem;
     }
 
     /*** quote section ***/
@@ -320,10 +328,13 @@
     }
 
     .single_campaign_box {
+        display: -ms-grid;
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 100%;
-        grid-template-rows: 1fr;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        -ms-grid-rows: 1fr;
+            grid-template-rows: 1fr;
         gap: 0px 3%;
         grid-template-areas:
             "donate_map_box video"
@@ -375,7 +386,8 @@
     }
 
     .hero_img img {
-        object-position: 200px;
+        -o-object-position: 200px;
+           object-position: 200px;
     }
 
     /* video controls */
@@ -393,7 +405,7 @@
     }
 
     /*** activites section ***/
-    .activites_section .campaign {
+    .campaign {
         margin-bottom: 20px;
     }
 
@@ -443,10 +455,13 @@
     }
 
     .single_campaign_box {
+        display: -ms-grid;
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 100%;
-        grid-template-rows: 1fr;
+        -ms-grid-columns: 100%;
+            grid-template-columns: 100%;
+        -ms-grid-rows: 1fr;
+            grid-template-rows: 1fr;
         gap: 0px 3%;
         grid-template-areas:
             "donate_map_box video"
