@@ -996,6 +996,10 @@ input[type="submit"]:hover {
         border-radius: 10px;
     }
 
+    .artcle_content i {
+        margin-left: 10px;
+    }
+
 /*********************
     PROJECT SINGLE PAGE
 *********************/
