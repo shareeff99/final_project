@@ -996,8 +996,14 @@ input[type="submit"]:hover {
         border-radius: 10px;
     }
 
-    .artcle_content i {
+    .artcle_content .dateLocation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .artcle_content .dateLocation span i {
         margin-left: 10px;
+        font-size: 20px;
     }
 
 /*********************
