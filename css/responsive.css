@@ -356,6 +356,19 @@
     .campaignImg {
         margin-bottom: 20PX;
     }
+
+/*********************
+    Social Action
+*********************/
+
+    .artcle_content .dateLocation span {
+        font-size: 16px;
+    }
+
+    .artcle_content .dateLocation span i {
+        margin-left: 5px;
+        font-size: 15px;
+    }
 }
 
 
