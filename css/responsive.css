@@ -365,6 +365,11 @@
         font-size: 16px;
     }
 
+
+    .artcle_content h3 {
+        font-size: 19px;
+    }
+
     .artcle_content .dateLocation span i {
         margin-left: 5px;
         font-size: 15px;
@@ -532,6 +537,14 @@
 
     .icon_numbers p {
         width: 100%;
+    }
+
+    /*********************
+        Social Action
+    *********************/
+
+    .artcle_content h3 {
+        font-size: 23px;
     }
 }
 
