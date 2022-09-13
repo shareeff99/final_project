@@ -996,6 +996,10 @@ input[type="submit"]:hover {
         border-radius: 10px;
     }
 
+    .cardsEvents .campaign .artcle_content {
+        min-height: 220px;
+    }
+
     .artcle_content .dateLocation {
         display: flex;
         justify-content: space-between;
@@ -1012,11 +1016,11 @@ input[type="submit"]:hover {
         display: flex;
         align-items: center;
     }
-
+    
     .artcle_content .dateLocation span .bi.bi-webcam-fill {
-        font-size: 23px;
+        font-size: 24px;
     }
-
+    
 /*********************
     PROJECT SINGLE PAGE
 *********************/
