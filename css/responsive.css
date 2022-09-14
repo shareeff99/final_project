@@ -395,6 +395,10 @@
             BLOG PAGE
     *************************/
 
+    .blog .campaign .artcle_content {
+        min-height: 150px;
+    }
+
     .artcle_content .footerBlogPost {
         align-items: flex-end;
     }
