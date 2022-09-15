@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>פרויקטים ירוקים - סינרגיה</title>
+	<title>רמת בית שמש ב', בית שמש - סינרגיה</title>
 
 	<meta name="Keywords" content="">
 	<meta name="Description" content="">
@@ -21,6 +21,9 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
+    <!-- animation plugin -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<!-- Web Favicon -->
 	<link rel="shortcut icon" href="assets/icons&symbols/favicon.gif" type="image/gif">
 
@@ -31,7 +34,7 @@
 
  
  <body id="myBody">
-	
+
 	<div class="loader">
 		<div>
 			<img src="assets/images/loading_logo.svg" alt="סינרגיה לוגו">
@@ -158,7 +161,7 @@
 						<a class="nav-link" aria-current="page" href="index.html">ראשי</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="projects.html">פרויקטים ירוקים</a>
+						<a class="nav-link" href="projects.html">פרויקטים ירוקים</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="activities.html">פעיליות חברתית</a>
@@ -181,358 +184,79 @@
 
 		<!-- Hero image -->
 		<div class="hero_img">
-			<h1>פרויקטים ירוקים</h1>
-			<img src="assets/images/installing_solar_panels.jpg" alt="פאנלים סולריים">
+			<h1><i class="bi bi-geo-alt-fill"></i>רמת בית שמש ב', בית שמש</h1>
+			<img src="assets/images/beit_shemesh.jpg" alt="בית שמש">
 		</div>
 		<!-- end od Hero image  -->
-
-		<!-- start of video -->
-		<section class="hero">
-
-			<div class="container">
-				<div class="row" id="theVideoBox">
-
-					<video class="myVideo col-lg-10 offset-lg-1" id="videoPlayer"  poster="assets/images/video-poster-img-01.jpg">
-						
-						<source src="assets/videos/סרטון פרויקט הגמר.webm" type="video/webm">
-						<source src="assets/videos/סרטון פרויקט הגמר.mp4" type="video/mp4">
-					</video>		
-
-					<button id="play_big_btn" src="assets/icons&symbols/play_big_btn.svg" alt="כפתור פליי"></button>
-
-					<div class="controls">
-						<div class="time_bar">
-							<span class="current">0:00</span> / <span class="duration">0:00</span>
-						</div>
-
-						<div class="video-progress">
-							<div class="video-progress-filled"></div>
-						</div>
-
-						<div class="videoButtons">
-							<button id="resize" class="increase"></button>	
-							<button id="play_pause"></button>
-
-							<div class="volumeBox">
-								<button id="volumeIcon" class="unMute"></button>
-								<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
-							</div>
-					
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</section>
-		<!-- end of video -->
 		
 		<!-- start of main -->
 		<main>
-			<!--open campaigns section-->
-			<section class="open_campaigns">
-				<h2>קמפיינים פתוחים</h2>
-				<div class="container">
-					<div class="row">
+            <section class="general_information container">
+                <div class="row">
+
+					<!-- single campaign box -->
+					<div class="single_campaign_box">
+						<div class="campaignImg" id="campaignImg">
+							<!--cd-image-container-->
+							<figure class="cd-image-container">
+								<img src="assets/images/baana_after.jpg" alt="בית שמש">
+								<span class="cd-image-label" data-type="original">אחרי התקנת הפאנלים</span>
+							</figure>
+							<!-- cd-image-container -->
+						</div>
+
 						
-						<!--Single Article-->
-						<div class="campaign_box col-lg-4 col-sm-6 col-12">
-							<article class="campaign">
-								<a href="halisa_haifa.html"></a>
-								
-								<div class="img_article_box">
-									<div class="hover_img_box">
-										<img class="hover_img_arrow"  src="assets/icons&symbols/hover_img_icon.svg" alt="חץ לבן">
-									</div>
-									<img class="img-fluid" src="assets/images/halisa.jpg" alt="שכונת חליסה">	
+						<div class="donate_map_box">
+							<div class="campaignData">
+								<div class="campaign_numbers">
+									<p>מתרמו: <span>₪150,000</span></p>
+									<p>15 תורמים</p>
+									<p>50%</p>
+								</div>
+				
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 50%; height: 15.2px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
 								</div>
 
-								<div class="artcle_content">
-									<h3>חליסה, חיפה </h3>
-									<p>
-										כיום שכונת חליסה הינה שכונה שממוקמת בחיפה במצב סוציו-איקונומי נמוך, המאפיין שלה הוא המבנים הישנים ולכן.
-									</p>
-									
-									<div class="campaign_numbers">
-										<p>מתרמו: <span>₪150,000</span></p>
-										<p>15 תורמים</p>
-										<p>50%</p>
-									</div>
-
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 50%; height: 15.2px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-						<!--Single Article-->
-						<div class="campaign_box col-lg-4 col-sm-6 col-12">
-							<article class="campaign">
-								<a href="#"></a>
-								
-								<div class="img_article_box">
-									<div class="hover_img_box">
-										<img class="hover_img_arrow"  src="assets/icons&symbols/hover_img_icon.svg" alt="חץ לבן">
-									</div>
-									<img class="img-fluid" src="assets/images/benAmi.jpg" alt="שכונת בן עמי">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>בן עמי, קריית אתא</h3>
-									<p>
-										בשנת 1953 סללו את הרחובות הראשיים של השכונה - רחוב בן עמי (לימים שכונת בן עמי) הרחובה הראשי של השכונה.
-									</p>
-									
-									<div class="campaign_numbers">
-										<p>מתרמו: <span>₪150,000</span></p>
-										<p>15 תורמים</p>
-										<p>50%</p>
-									</div>
-
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 50%; height: 15.2px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-						<!--Single Article-->
-						<div class="campaign_box col-lg-4 col-sm-6 col-12">
-							<article class="campaign">
-								<a href="#"></a>
-								
-								<div class="img_article_box">
-									<div class="hover_img_box">
-										<img class="hover_img_arrow"  src="assets/icons&symbols/hover_img_icon.svg" alt="חץ לבן">
-									</div>
-									<img class="img-fluid" src="assets/images/kfar_manda.jpg" alt="שכונת אחמד אמרה בכפר כנא">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>אחמד אמרה, כפר כנא</h3>
-									<p>
-										כפר כנא הוא האתר העיקרי המזוהה, בקרב חוקרים וצליינים מאז ימי הביניים, עם קנה הנזכרת בברית החדשה.
-									</p>
-									
-									<div class="campaign_numbers">
-										<p>מתרמו: <span>₪150,000</span></p>
-										<p>15 תורמים</p>
-										<p>50%</p>
-									</div>
-
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 50%; height: 15.2px;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-
-					</div>
-				</div>
-			</section>
-			<!--end of open campaigns-->
-
-
-
-			<!-- done campaigns section-->
-			<section class="done_campaigns">
-				<h2>גויס בהצלחה</h2>
-				<div class="container">
-					<div class="row">
-						
-						<!--Single Article-->
-						<div class="campaign_box offset-lg-2 col-lg-4 col-sm-6 col-12">
-							<article class="campaign">
-								<a href="beit_shemesh.html"></a>
-								
-								<div class="img_article_box">
-									<div class="hover_img_box">
-										<img class="hover_img_arrow" src="assets/icons&symbols/hover_img_icon.svg" alt="חץ לבן">
-									</div>
-									<img class="img-fluid" src="assets/images/baana.JPG" alt="בענה">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>רמת התנאים, בית שמש</h3>
-									<p>
-										בית שמש היא עיר במחוז ירושלים שבישראל, ולאחר שהעמותה פעלה שם הצלחנו לשפר את המצב הכלכלי של התושבים.
-									</p>
-									
-									<div class="campaign_numbers">
-										<p>מתרמו: <span>₪300,000</span></p>
-										<p>30 תורמים</p>
-										<p>100%</p>
-									</div>
-
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 100%; height: 15.2px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-						<!--Single Article-->
-						<div class="campaign_box col-lg-4 col-sm-6 col-12">
-							<article class="campaign">
-								<a href="#"></a>
-								
-								<div class="img_article_box">
-									<div class="hover_img_box">
-										<img class="hover_img_arrow"  src="assets/icons&symbols/hover_img_icon.svg" alt="חץ לבן">
-									</div>
-									<img class="img-fluid" src="assets/images/tzfat.jpg" alt="צפת">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>ג'סי כהן, חולון</h3>
-									<p>
-										הפרויקט של העמותה בג'סי כהן היה אחד המאתגרים, הצלחנו לעזור  לתושבי המקום לשפר להם את המצב הכלכלי.
-									</p>
-									
-									<div class="campaign_numbers">
-										<p>מתרמו: <span>₪300,000</span></p>
-										<p>30 תורמים</p>
-										<p>100%</p>
-									</div>
-
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 100%; height: 15.2px;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" data-aos="fade-left" data-aos-duration="1200" data-aos-offset="30"></div>
-									</div>
-								</div>
-							</article>
-						</div>
-
-
-					</div>
-				</div>
-			</section>
-			<!--end of done campaigns-->
-
-
-
-			<!-- soon campaigns section-->
-			<section class="soon_section">
-				<h2>בקרוב</h2>
-				<div class="container">
-					<div class="row">
-						
-						<!--Single Article-->
-						<div class="campaign_box offset-lg-2 col-lg-4 col-sm-6 col-12">
-							<article class="campaign soon_campaign">
-								<div class="img_article_box">
-									<img class="img-fluid" src="assets/images/yoseftal.jpg" alt="יוספטל פתח תקווה">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>יוספטל, פתח תקווה</h3>
-									<p>
-										שכונת יוספטל שבפתח תקווה היא שכונה ענייה שאנו בימים אלו בוחנים את האפשרות לסייע לתושבים על ידי גיוס המונים.
-									</p>
-
-									<div class="progress">
-										<h3>הקמפיין בקרוב נפתח</h3>
-									</div>
-								</div>
-							</article>
-						</div>
-						
-						<!--Single Article-->
-						<div class="campaign_box col-lg-4 col-sm-6 col-12">
-							<article class="campaign soon_campaign">
-								
-								<div class="img_article_box">
-									<img class="img-fluid" src="assets/images/navi shanan.jpg" alt="נווה שאנן, תל אביב">	
-								</div>
-
-								<div class="artcle_content">
-									<h3>נווה שאנן, תל אביב</h3>
-									<p>
-										קיבלנו כמה פניות מהתושבים שרצו שנבחן את האפשרות לבנות להם תשתית של אינרגיה מתחדשת, הסכמנו לברשה.
-									</p>
-
-									<div class="progress">
-										<h3>הקמפיין בקרוב נפתח</h3>
-									</div>
-								</div>
-							</article>
-						</div>
-
-						<!-- animation plugin -->
-						<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-					</div>
-				</div>
-			</section>
-			<!--end of soon campaigns-->
-
-
-
-			<!--Q&A section-->
-			<section class="q&a">
-				<h2>שאלות נפוצות</h2>
-
-				<div class="container">
-					<div class="row">
-
-						<div class="accordion accordion-flush col-lg-8 offset-lg-2 col-12" id="accordionFlushExample">
-							
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question1" aria-expanded="false" aria-controls="question1">
-									איזה אסמכתא מקבלים לאחר הגיוס? 
-								</button>
-							</h2>
-
-							<div id="question1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-								<p class="accordion-body"> לאחר התרומה מיד יישלח לך מייל עם האסמכת על תרומתך עם השם שלך התורם ופרטי התרמה. </p>
+								<button>לתרומה לחברה</button>
 							</div>
-						</div>
-							
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question2" aria-expanded="false" aria-controls="question2">
-									לאן הכסף המגויס מהקמפיינים מושקע? 
-								</button>
-							</h2>
 
-							<div id="question2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-								<p class="accordion-body"> במידה והקמפיין הסתיים בהצלחה וגיוס את כל הכסף הנדרש, הכסף מועבר לחשבון בנק נאמנות ושם הכסף נשמר. ומהחשבון לכסף מושקע בריסת תשתית של אנרגיה מתחדשת. </p>
-							</div>
+							<div class="projectMap">
+								<iframe width="550" height="400" frameborder="0" src="https://widgets.scribblemaps.com/sm/?z&width=550&height=400&id=hfxDaev2gu" style="border:0; max-width: 100%;" allowfullscreen allow="geolocation" loading="lazy"></iframe>
+							</div>						
 						</div>
-							
-						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingOne">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question3" aria-expanded="false" aria-controls="question3">
-									האם אני יכול להתנדב בהתקנת התשתיות של האנרגיה המתחדשת? 
-								</button>
-							</h2>
-
-							<div id="question3" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-								<p class="accordion-body"> בהחלט! תמיד נרצה לראות מתנדבים שיקחו חלק במגוון הפרויקטים שלנו. </p>
-							</div>
-						</div>
-
 					</div>
-				</div>
-			</section>
-			<!--end of Q&A section-->
+                </div>            
+            </section>
 
-
-			<!-- email form section -->
-			<div class="email_form">
+			<section class="single_campaign_content">
 				<div class="container">
 					<div class="row">
-						<div class="email_form_box">
-							<form action="#" method="post">
-								<h2>אל תפספסו את הפעילות החברתיות שלנו</h2>
-								<input type="email" name="f-email" id="f-email" placeholder="הזן את המייל שלך">
-								<input type="submit" value="להישאר מעודכן">
-							</form>
+						<div class="col-lg-8">
+							<h2>דברים מעניין על חליסה</h2>
+
+							<p>
+								חליסה היא שכונה בחיפה התחתית, ממזרח לעיר התחתית. מבחינה מנהלית היא משויכת לרובע נווה שאנן שמדרום לה. השכונה יושבת בסמוך לוואדי רושמיה, המפריד בינה לבין הדר הכרמל ממערב. בצפון-מערב היא גובלת בוואדי סאליב, בצפון בחוף שמן, במזרח בצ'ק פוסט ובדרום בשכונות נווה שאנן.
+							</p>
+
+							<h2>היסטוריה</h2>
+
+							<P>
+								עד מלחמת העצמאות הייתה חליסה שכונה ערבית כמעט הומוגנית, שהתפתחה בעיקר סביב רחוב גוש עציון של ימינו (אז רחוב אחמד שאוקי). בקצה העליון של השכונה הוקם מסגד. בשנות ה-20 היא הורחבה מזרחה, על צלע ההר, ברחובות שנקראו תל-עמל ואוכלסו על ידי יהודים. אז גם נבנה גשר רושמיה המסוגנן, שהיה לאחד מנתיבי התחבורה העיקריים של חיפה.
+							</P>
+
+							<h2>נתונים מעניינים</h2>
+
+							<p>
+								בשכונת חליסה יש היום כ260 בתים שמתוכם 70% מהמגזר הערבי ו30% הם יהודים.
+								במידה ונתקין לכל בית מערכת של פאנלים סולאריים נצליח להפיק להם רווח בין 700 עד 1900 שקלים בחודש לכל בית וזה יכול לשפר את המצב בכלכלי של התושבים.
+							</p>							
 						</div>
+						
 					</div>
 				</div>
-			</div>
+
+			</section>
 		</main>
 		<!-- end of main -->
 
@@ -583,8 +307,14 @@
 	<!-- my JS -->
 	<script src="js/customize_video_style.js"></script>
 
+	<!-- fixed on scroll donate_map_box -->
+	<script src="js/fixedOnScroll.js"></script>
+
 	<!-- animation plugin -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- onClick erea -->
+    <script src="js/show_hidden_cards.js"></script>
 
 	<script>
 		AOS.init();
@@ -600,5 +330,14 @@
 			$(".content").delay(1000).fadeIn(1000);
 		});
 	</script>
+
+	<!-- Modernizr -->
+	<script src="js/modernizr.js"></script>
+
+	<!-- Resource jQuery -->
+	<script src="js/jquery.mobile.custom.min.js"></script> 
+	
+	<!-- Resource jQuery -->
+	<script src="js/main.js"></script> 
  </body>
 </html>
