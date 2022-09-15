@@ -1166,6 +1166,16 @@ input[type="submit"]:hover {
         border: solid 1px #dcdcdc !important;
     }
 
+    .donate_map_box.done button {
+        background-color: #2e2e2e;
+        cursor: default;
+    }
+
+    .donate_map_box.done button i::before {
+        font-size: 25px;
+        vertical-align: sub;
+    }
+
 
 
 
