@@ -1213,12 +1213,10 @@ input[type="submit"]:hover {
 
 
 
-
-
     
     /* -------------------------------- 
 
-    Main components 
+            Main components 
 
     -------------------------------- */
     
@@ -1363,6 +1361,23 @@ input[type="submit"]:hover {
         transition: transform 0.3s 0.7s, opacity 0s 0.7s;
         transition: transform 0.3s 0.7s, opacity 0s 0.7s, -webkit-transform 0.3s 0.7s;
       }
+
+
+
+
+
+
+
+
+
+
+/************************
+        USER PAGE
+************************/
+
+    .userPage .nav-link.active:after {
+        content: url("") !important;
+    }
     
 
     
