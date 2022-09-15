@@ -360,10 +360,9 @@ input[type="submit"]:hover {
     #theVideoBox {
         position: relative;
         overflow: hidden;
-        cursor: pointer;
     }
 
-    #theVideoBox:hover .controls {
+    .myVideo:hover .controls {
         -webkit-transform: translateY(0);
                 transform: translateY(0);
         border-radius: 0 0 14px 14px;
@@ -376,6 +375,7 @@ input[type="submit"]:hover {
         top: 0;
         opacity: 1;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        cursor: pointer;
     }
 
     /* video controls */
