@@ -390,7 +390,11 @@
     Social Action
 *********************/
 
-    .artcle_content .dateLocation span {
+    .artcle_content .dateLocation {
+        flex-direction: column;
+    }
+
+    .artcle_content .dateLocation p {
         font-size: 16px;
     }
 
@@ -399,7 +403,7 @@
         font-size: 19px;
     }
 
-    .artcle_content .dateLocation span i {
+    .artcle_content .dateLocation p i {
         margin-left: 5px;
         font-size: 15px;
     }
