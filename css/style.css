@@ -1214,12 +1214,8 @@ input[type="submit"]:hover {
         SINGLE POST
 *************************/
 
-    .hero_img.blog_post h2 {
-        position: absolute;
-        z-index: 1;
-        bottom: 100px;
+    .sub_title h2 {
         font-size: 2rem;
-        max-width: 82%;
     }
 
     

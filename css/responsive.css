@@ -205,12 +205,9 @@
         text-align: center;
     }
 
-    .hero_img.blog_post h2 {
-        bottom: 30px;
+    .sub_title h2 {
         font-size: 1.5rem;
-        max-width: 90%;
     }
-
 }
 
 
@@ -431,10 +428,8 @@
         font-size: 2.4rem;
     }
 
-    .hero_img.blog_post h2 {
-        bottom: 50px;
-        font-size: 1.7rem;
-        max-width: 78%;
+    .sub_title h2 {
+        font-size: 1.5rem;
     }
 }
 
@@ -568,12 +563,9 @@
         SINGLE POST
 *************************/
 
-    .hero_img.blog_post h2 {
-        bottom: 50px;
+    .sub_title h2 {
         font-size: 1.7rem;
-        max-width: 75%;
     }
-
 }
 
 
@@ -624,9 +616,8 @@
         SINGLE POST
 *************************/
 
-    .hero_img.blog_post h2 {
+    .sub_title h2 {
         font-size: 1.7rem;
-        max-width: 90%;
     }
 }
 
