@@ -1209,6 +1209,19 @@ input[type="submit"]:hover {
         text-align: right;
     }
 
+
+/*************************
+        SINGLE POST
+*************************/
+
+    .hero_img.blog_post h2 {
+        position: absolute;
+        z-index: 1;
+        bottom: 100px;
+        font-size: 2rem;
+        max-width: 82%;
+    }
+
     
 
 
