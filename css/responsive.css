@@ -28,7 +28,11 @@
            object-position: 200px;
     }
 
-    /*** hero ***/
+    .hero_img {
+        height: 300px;
+    }
+
+    /*** video ***/
 
     .videoButtons {
         padding: 0 20%;
@@ -49,6 +53,10 @@
 
     .time_bar {
         width: 25%;
+    }
+
+    #play_big_btn {
+        top: 60%;
     }
 
     /* single campaign style */
@@ -207,6 +215,10 @@
 
     .sub_title h2 {
         font-size: 1.5rem;
+    }
+
+    .sub_title .footerBlogPost {
+        justify-content: space-between;
     }
 }
 
@@ -434,6 +446,11 @@
 
     .sub_title h2 {
         font-size: 1.5rem;
+    }
+
+    .sub_title .footerBlogPost {
+        justify-content: space-between;
+        align-items: flex-end;
     }
 }
 
