@@ -253,7 +253,7 @@
            object-position: 200px;
     }
 
-    /*** hero ***/
+    /*** video ***/
 
     .videoButtons {
         padding: 0 20%;
@@ -270,7 +270,11 @@
 
     .volumeBox input#volume {
         display: none;
-    }    
+    }
+    
+    #play_big_btn {
+        top: 55%;
+    }
 
     /* single campaign style */
     .campaign {

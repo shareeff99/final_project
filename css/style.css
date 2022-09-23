@@ -687,6 +687,7 @@ input[type="submit"]:hover {
 
     .campaign .artcle_content {
         padding: 20px;
+        background-color: #fff;
     }
 
     .campaign:hover .hover_img_box {
