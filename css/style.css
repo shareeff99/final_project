@@ -514,6 +514,7 @@ input[type="submit"]:hover {
         width: 20%;
         color: #fff;
         padding: 0 10px;
+        font-family: 'Almoni ML v5 AAA';
     }
 
     .player-controls {
