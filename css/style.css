@@ -201,7 +201,7 @@ input[type="submit"]:hover {
 }
 
 #myLogo.changeHeight {
-	height: 45px;
+	height: 55px;
 }
 
 /**** logo name changes ****/
@@ -232,7 +232,7 @@ input[type="submit"]:hover {
 
     #myBody .navbar.changeHeader {
         background: white !important;
-        border-bottom: 1px solid #ebebeb;
+        border-bottom: 2px solid #ebebeb;
         border-radius: 0 0 10px 10px;
     }
 
@@ -242,7 +242,7 @@ input[type="submit"]:hover {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        margin-right: 20%;
+        margin-right: 18%;
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
         border-radius: 10px;
@@ -340,8 +340,8 @@ input[type="submit"]:hover {
         -o-object-fit: cover;
            object-fit: cover;
         filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.2" /><feFuncG type="linear" slope="0.2" /><feFuncB type="linear" slope="0.2" /></feComponentTransfer></filter></svg>#filter');
-        -webkit-filter: brightness(0.2);
-                filter: brightness(0.2);
+        -webkit-filter: brightness(0.4);
+                filter: brightness(0.4);
     }
 
     /*** hero ***/
