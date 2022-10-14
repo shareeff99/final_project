@@ -609,7 +609,8 @@
 
     /* video controls */
     .controls {
-        width: 81%;
+        width: 97.5%;
+        border-radius: 0 0 17px 17px;
     }
 
     .open_map_card {

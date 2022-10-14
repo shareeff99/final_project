@@ -257,7 +257,7 @@ input[type="submit"]:hover {
     /* nav links */
     li.nav-item {
         margin-left: 30px;
-        font-size: 20px;
+        font-size: 22px;
         position: relative;
     }
 
@@ -313,7 +313,7 @@ input[type="submit"]:hover {
 
     /*** hero img ***/
     .hero_img {
-        height: 400px;
+        height: 300px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -380,7 +380,6 @@ input[type="submit"]:hover {
     #theVideoBox:hover .controls {
         -webkit-transform: translateY(0);
                 transform: translateY(0);
-        border-radius: 0 0 14px 14px;
     }
 
     .myVideo {
@@ -402,14 +401,14 @@ input[type="submit"]:hover {
         margin-left:auto;
         margin-right:auto;
         padding: 0;
-        width: 81.5%;
+        width: 98.1%;
         background-color: rgba(0, 0, 0, 0.6);
         z-index: 5;
         -webkit-transform: translateY(100%) translateY(-5px);
                 transform: translateY(100%) translateY(-5px);
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
-        border-radius: 0 0 16px 16px;
+        border-radius: 0 0 22px 22px;
     }
 
     .videoButtons {
