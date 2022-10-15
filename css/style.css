@@ -1196,6 +1196,10 @@ input[type="submit"]:hover {
         vertical-align: sub;
     }
 
+    .single_campaign_content p {
+        margin-bottom: 30px;
+    } 
+
 
 
 
