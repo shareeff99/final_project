@@ -118,9 +118,9 @@ h2 , h3 ,h4 {
 }
 
 h2 {
-    text-align: center;
+    text-align: right;
     font-size: 2.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -135,7 +135,7 @@ h4 {
 
 p {
 	font-family: 'Almoni ML v5 AAA';
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 section {
@@ -175,6 +175,7 @@ input#f-email {
     color: var(--secondary-color);
     outline: none;
     width: 30%;
+    font-family: 'Almoni ML v5 AAA';
 }
 
 input[type="submit"] {
@@ -1066,7 +1067,6 @@ input[type="submit"]:hover {
 
     .about_section p{
         width: 70%;
-        margin: 0 auto;
     }
 
     .myTeam img{
@@ -1083,13 +1083,15 @@ input[type="submit"]:hover {
 
     .vision p {
         width: 70%;
-        margin: 0 auto;
     }
 
     .contactUs input, textarea {
         text-align: right;
         margin-bottom: 10px;
         color: var(--secondary-color);
+        padding: 10px;
+        font-size: 1.2rem;
+        font-family: 'Almoni ML v5 AAA';
     }
 
     .contactUs textarea {
