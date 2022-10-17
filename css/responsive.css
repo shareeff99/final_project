@@ -286,7 +286,7 @@
     }
 
     .campaign .artcle_content p {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     /*** quote section ***/
@@ -406,17 +406,13 @@
     Social Action
 *********************/
 
-    .artcle_content .dateLocation {
-        flex-direction: column;
-    }
-
     .artcle_content .dateLocation p {
         font-size: 16px;
     }
 
 
     .artcle_content h3 {
-        font-size: 19px;
+        font-size: 1.7rem;
     }
 
     .artcle_content .dateLocation span i {
@@ -584,6 +580,17 @@
         margin-bottom: 20PX;
     }
 
+/*********************
+    Social Action
+*********************/
+    .artcle_content .dateLocation p {
+        font-size: 1rem;
+    }
+
+    .campaign .artcle_content p {
+        font-size: 1.1rem;
+    }
+
 /*************************
         SINGLE POST
 *************************/
@@ -604,7 +611,11 @@
     
     /*** navbar ***/  
     div#navbarNav {
-        margin-right: 12%;
+        margin-right: 5%;
+    }
+
+    li.nav-item {
+        margin-left: 20px;
     }
 
     /* video controls */
@@ -633,6 +644,9 @@
     /*********************
         Social Action
     *********************/
+    .artcle_content .dateLocation p {
+        font-size: 1rem;
+    }
 
     .artcle_content h3 {
         font-size: 23px;
@@ -657,7 +671,7 @@
 
     /*** navbar ***/  
     div#navbarNav {
-        margin-right: 19%;
+        margin-right: 10%;
     }
 
     .projectMap iframe {
