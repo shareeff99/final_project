@@ -104,8 +104,9 @@ body {
 
 h1 {
 	font-family: 'Mikhmoret Rounded DL 1.1 AAA';
-    color: var(--light-grayBG);
+    
     font-weight: bold;
+    font-size: 43.2px;
     font-size: 43.2px;
     font-size: 43.2px;
     font-size: 2.7rem;
@@ -113,29 +114,34 @@ h1 {
 
 h2 , h3 ,h4 {
 	font-family: 'Mikhmoret Rounded DL 1.1 AAA';
-    color: var(--primery-color);
     font-weight: bold;
 }
 
 h2 {
     text-align: right;
+    font-size: 35.2px;
     font-size: 2.2rem;
     margin-bottom: 10px;
+    color: #000;
 }
 
 h3 {
+    font-size: 25.6px;
     font-size: 1.6rem;
     text-align: center;
 }
 
 h4 {
+    font-size: 20.8px;
     font-size: 1.3rem;
     text-align: center;
 }
 
 p {
 	font-family: 'Almoni ML v5 AAA';
+    font-size: 19.2px;
     font-size: 1.2rem;
+    letter-spacing: -0.1px;
 }
 
 section {
@@ -201,10 +207,6 @@ input[type="submit"]:hover {
     transition: 0.5s ease all;
 }
 
-#myLogo.changeHeight {
-	height: 55px;
-}
-
 /**** logo name changes ****/
 #myLogo #logoName path {
 	fill: #fff;
@@ -226,9 +228,11 @@ input[type="submit"]:hover {
 /*** navbar ***/
     #myBody .navbar {
         padding: 10px 2%;
-        background: transparent !important;
+        background: rgba(0, 0, 0, 0.6) !important;
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
+        border-radius: 0 0 10px 10px;
+        max-height: 92px;
     }
 
     #myBody .navbar.changeHeader {
@@ -236,8 +240,6 @@ input[type="submit"]:hover {
         border-bottom: 2px solid #ebebeb;
         border-radius: 0 0 10px 10px;
     }
-
-    
 
     .navbar-expand-lg .navbar-collapse {
         -webkit-box-pack: justify;
@@ -315,35 +317,36 @@ input[type="submit"]:hover {
 
     /*** hero img ***/
     .hero_img {
-        height: 380px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        height: 550px;
         overflow: hidden;
         position: relative;
     }
 
-    .hero_img h1 {
+    .hero_img .container {
+        z-index: 2;
+        height: 100%;
         position: absolute;
-        z-index: 1;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100vw;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .hero_img .container h1 {
+        text-align: right;
+        text-shadow: 0 0 10px rgb(0 0 0 / 90%);
+        color: #fff;
     }
 
     .hero_img img {
         -o-object-fit: cover;
            object-fit: cover;
-        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.2" /><feFuncG type="linear" slope="0.2" /><feFuncB type="linear" slope="0.2" /></feComponentTransfer></filter></svg>#filter');
-        -webkit-filter: brightness(0.4);
-                filter: brightness(0.4);
     }
 
     /*** hero ***/
@@ -372,16 +375,16 @@ input[type="submit"]:hover {
     }
 
 /*** video ***/
-
+    
     #theVideoBox {
         position: relative;
-        overflow: hidden;
+        overflow: visible;
         cursor: pointer;
     }
 
     #theVideoBox:hover .controls {
-        -webkit-transform: translateY(0);
-                transform: translateY(0);
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     }
 
     .myVideo {
@@ -391,26 +394,29 @@ input[type="submit"]:hover {
         top: 0;
         opacity: 1;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        box-shadow: 0 2px 16px rgb(0 0 0 / 20%);
     }
 
     /* video controls */
     .controls {
         display: block;
         position: absolute;
-        bottom:0;
+        bottom: 85px;
         right: 0;
         left: 0;
         margin-left:auto;
         margin-right:auto;
         padding: 0;
-        width: 98.1%;
+        width: 100%;
         background-color: rgba(0, 0, 0, 0.6);
         z-index: 5;
         -webkit-transform: translateY(100%) translateY(-5px);
                 transform: translateY(100%) translateY(-5px);
         -webkit-transition: 0.5s ease all;
         transition: 0.5s ease all;
-        border-radius: 0 0 22px 22px;
+        border-radius: 0 0 26px 26px;
+        opacity: 0.1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
     }
 
     .videoButtons {
@@ -639,7 +645,7 @@ input[type="submit"]:hover {
     /* single campaign style */
     .campaign {
         border-radius: 10px;
-        border: solid 1px #dcdcdc;
+        box-shadow: 0 2px 16px rgb(0 0 0 / 20%);
         overflow: hidden;
         position:relative;
     }
@@ -746,6 +752,7 @@ input[type="submit"]:hover {
 
     .icon_numbers h3 {
         font-size: 48px;
+        font-size: 48px;
         font-size: 3rem;
         margin: 0;
         color: var(--secondary-color);
@@ -834,8 +841,9 @@ input[type="submit"]:hover {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
     }
 
 
@@ -846,7 +854,7 @@ input[type="submit"]:hover {
         background-image: url("../assets/icons&symbols/footer_symbols.svg");
         background-size: 90%;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 118% 0;
     }
 
     .footer_pgs_links {
@@ -867,24 +875,6 @@ input[type="submit"]:hover {
                 align-items: flex-start;
     }
 
-    .footer_social_media {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-    }
-
     .footer_pgs_links a{
         color: #fff;
         text-decoration: none;
@@ -895,19 +885,6 @@ input[type="submit"]:hover {
     }
 
     .footer_pgs_links a:hover{
-        color: var(--call2action);
-    }
-
-    .footer_social_media a{
-        color: #fff;
-        text-decoration: none;
-        font-family: 'Almoni ML v5 AAA';
-        -webkit-transition: 0.5s ease all;
-        transition: 0.5s ease all;
-        width: auto;
-    }
-
-    .footer_social_media a:hover{
         color: var(--call2action);
     }
 
@@ -932,10 +909,11 @@ input[type="submit"]:hover {
         height: 32px;
         height: 32px;
         height: 32px;
+        height: 32px;
         height: 2rem;
         border-radius: 10px;
         background-color: #fff;
-        border:solid 2px var(--call2action);
+        border:solid 2px var(--primery-color);
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
@@ -947,7 +925,7 @@ input[type="submit"]:hover {
 
     .soon_campaign .progress h3 {
         font-family: 'Almoni ML v5 AAA';
-        color: var(--call2action);
+        color: var(--primery-color);
         font-size: 20px;
     }
 
@@ -977,12 +955,14 @@ input[type="submit"]:hover {
 
     .accordion-flush .accordion-item .accordion-button.collapsed {
         border-radius: 10px;
-        background-color: var(--call2action);
-        color: white;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0 2px 16px rgb(0 0 0 / 20%);
     }
 
     .accordion-flush .accordion-item .accordion-button.collapsed:hover {
-        background-color: var(--call2actionHover);
+        background-color: var(--call2action);
+        color: #fff;
     }
 
     .accordion-flush .accordion-item .accordion-button[aria-expanded="true"] {
@@ -1032,11 +1012,18 @@ input[type="submit"]:hover {
     }
 
     .artcle_content .dateLocation {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         margin-bottom: 10px;
         opacity: 0.5;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     }
 
     .artcle_content .dateLocation p i {
@@ -1045,8 +1032,12 @@ input[type="submit"]:hover {
     }
 
     .artcle_content .dateLocation p {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         font-weight: 700;
     }
     
@@ -1092,6 +1083,7 @@ input[type="submit"]:hover {
         margin-bottom: 10px;
         color: var(--secondary-color);
         padding: 10px;
+        font-size: 19.2px;
         font-size: 1.2rem;
         font-family: 'Almoni ML v5 AAA';
     }
@@ -1143,6 +1135,39 @@ input[type="submit"]:hover {
         margin-top: 20px;
     }
 
+    .open_campaigns h2 {
+        color: #5FBA94;
+    }
+    .open_campaigns h3 {
+        color: #5FBA94;
+    }
+    .open_campaigns .artcle_content span {
+        color: #5FBA94;
+    }
+
+
+    .done_campaigns h2,h3 {
+        color: #55a5e2;
+    }
+    .done_campaigns .campaign_numbers span {
+        color: #55a5e2;
+    }
+    .done_campaigns .progress-bar.aos-init.aos-animate {
+        background-color:#55a5e2;
+    }
+
+    
+    .soon_section h2 {
+        color: var(--primery-color);
+    }
+    .soon_section h3, .campaign_numbers span {
+        color: var(--primery-color);
+    }
+    .soon_section .progress-bar.aos-init.aos-animate {
+        background-color:var(--primery-color);
+    }
+
+
     .single_campaign_box {
         display: -ms-grid;
         display: grid; 
@@ -1193,7 +1218,7 @@ input[type="submit"]:hover {
         cursor: default;
     }
 
-    .donate_map_box.done button i::before {
+    .donate_map_box.done button i:before {
         font-size: 25px;
         vertical-align: sub;
     }
@@ -1214,16 +1239,32 @@ input[type="submit"]:hover {
     }
 
     .artcle_content .footerBlogPost {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
 
     .artcle_content .autherData {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        align-items: flex-end;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
 
     .artcle_content .autherData img {
@@ -1241,22 +1282,39 @@ input[type="submit"]:hover {
 *************************/
 
     .sub_title h2 {
+        font-size: 32px;
         font-size: 2rem;
         text-align: right;
     }
 
     .sub_title .footerBlogPost {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: flex-end;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
         margin-bottom: 30px;
     }
 
     .sub_title .autherData {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        align-items: flex-end;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
 
     .sub_title .autherData img {
@@ -1274,6 +1332,7 @@ input[type="submit"]:hover {
     }
 
     .blog_content p {
+        font-size: 19.2px;
         font-size: 1.2rem;
         margin-bottom: 30px;
     }
@@ -1290,7 +1349,39 @@ input[type="submit"]:hover {
         text-align: right;
     }
 
-    
+    .blog .imgBox {
+        overflow: hidden;
+    }
+
+    .blog .imgBox img {
+        width: 100%;
+    }
+
+    .card-body *{
+        text-align: right;
+    }
+
+    .singleBlog {
+        position: relative;
+        border-radius: 12px;
+        box-shadow: 0 2px 16px rgb(0 0 0 / 20%);
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .singleBlog a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+
+    .card.mb-3 {
+        margin: 0 !important;
+    }
 
 
 
@@ -1370,6 +1461,7 @@ input[type="submit"]:hover {
         background-color: var(--primery-color);
         border-radius: 10px;
         font-size: 24px;
+        font-size: 24px;
         font-size: 1.5rem;
       }
 
@@ -1442,6 +1534,3 @@ input[type="submit"]:hover {
         transition: transform 0.3s 0.7s, opacity 0s 0.7s;
         transition: transform 0.3s 0.7s, opacity 0s 0.7s, -webkit-transform 0.3s 0.7s;
       }
-    
-
-    

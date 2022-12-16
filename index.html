@@ -181,8 +181,10 @@
 
 		<!-- Hero image -->
 		<div class="hero_img">
-			<h1>ראשי</h1>
 			<img src="assets/images/togather.jpg" alt="חברים עומדים על הגג של הבניין בשקיעה">
+			<div class="container">
+				<h1>ברוכים הבאים לעמותת סינרגיה שבזכותה <span>בעזרת גיוס המונים אנו מסייעים לאוכלוסיות חלשות סוציו-איקונומי</span></h1>
+			</div>
 		</div>
 		<!-- end od Hero image  -->
 
@@ -191,7 +193,44 @@
 
 		<!-- start of main -->
 		<main>
+			
+			<!-- start of Video -->
+			<section class="hero">
 
+				<div class="container">
+					<div class="row" id="theVideoBox">
+
+						<video class="myVideo col-lg-12" id="videoPlayer"  poster="assets/images/video-poster-img-01.jpg">
+							<source src="assets/videos/סרטון פרויקט הגמר.webm" type="video/webm">
+							<source src="assets/videos/סרטון פרויקט הגמר.mp4" type="video/mp4">
+						</video>		
+
+						<button id="play_big_btn" src="assets/icons&symbols/play_big_btn.svg" alt="כפתור פליי"></button>
+						
+						<div class="controls">
+							<div class="time_bar">
+								<span class="current">0:00</span> / <span class="duration">0:00</span>
+							</div>
+	
+							<div class="video-progress">
+								<div class="video-progress-filled"></div>
+							</div>
+	
+							<div class="videoButtons">
+								<button id="resize" class="increase"></button>	
+								<button id="play_pause"></button>
+	
+								<div class="volumeBox">
+									<button id="volumeIcon" class="unMute"></button>
+									<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end of Video -->
+			
 			<!--open campaigns section-->
 			<section class="open_campaigns">
 				<div class="container">
@@ -297,45 +336,6 @@
 				</div>
 			</section>
 			<!--end of open campaigns-->
-
-			<!-- start of Video -->
-			<section class="hero">
-
-				<div class="container">
-					<div class="row" id="theVideoBox">
-
-						<video class="myVideo col-lg-12" id="videoPlayer"  poster="assets/images/video-poster-img-01.jpg">
-							<source src="assets/videos/סרטון פרויקט הגמר.webm" type="video/webm">
-							<source src="assets/videos/סרטון פרויקט הגמר.mp4" type="video/mp4">
-						</video>		
-
-						<button id="play_big_btn" src="assets/icons&symbols/play_big_btn.svg" alt="כפתור פליי"></button>
-
-						<div class="controls">
-							<div class="time_bar">
-								<span class="current">0:00</span> / <span class="duration">0:00</span>
-							</div>
-
-							<div class="video-progress">
-								<div class="video-progress-filled"></div>
-							</div>
-
-							<div class="videoButtons">
-								<button id="resize" class="increase"></button>	
-								<button id="play_pause"></button>
-
-								<div class="volumeBox">
-									<button id="volumeIcon" class="unMute"></button>
-									<input type="range" id="volume" min="0" max="1" step="0.01" value="1">
-								</div>
-						
-							</div>
-						</div>
-					</div>
-				</div>
-				
-			</section>
-			<!-- end of Video -->
 
 
 			<!-- few numbers section-->
@@ -658,7 +658,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="footer_pgs_links col-lg-4 offset-lg-2">
+					<div class="footer_pgs_links col-lg-4">
 						<h3>עמודים</h3>
 
 						<a href="index.html">ראשי</a>
@@ -668,20 +668,6 @@
 						<a href="activities.html">פעיליות חברתית</a>
 
 						<a href="about.html">אודותינו</a>
-					</div>
-
-
-					<div class="footer_social_media col-lg-4">
-
-						<h3>תעקבו אחרינו</h3>
-
-						<a href="#">
-							<i class="bi bi-facebook"></i>
-						</a>
-
-						<a href="#">
-							<i class="bi bi-instagram"></i>
-						</a>
 					</div>
 				</div>
 			</div>
