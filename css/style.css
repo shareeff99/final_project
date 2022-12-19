@@ -92,6 +92,10 @@
     overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	direction:rtl;
 	font-family: 'Mikhmoret Rounded DL 1.1 AAA', 'Almoni ML v5 AAA';
@@ -109,6 +113,7 @@ h1 {
     font-size: 43.2px;
     font-size: 43.2px;
     font-size: 43.2px;
+    font-size: 43.2px;
     font-size: 2.7rem;
 }
 
@@ -120,6 +125,7 @@ h2 , h3 ,h4 {
 h2 {
     text-align: right;
     font-size: 35.2px;
+    font-size: 35.2px;
     font-size: 2.2rem;
     margin-bottom: 10px;
     color: #000;
@@ -127,11 +133,13 @@ h2 {
 
 h3 {
     font-size: 25.6px;
+    font-size: 25.6px;
     font-size: 1.6rem;
     text-align: center;
 }
 
 h4 {
+    font-size: 20.8px;
     font-size: 20.8px;
     font-size: 1.3rem;
     text-align: center;
@@ -139,6 +147,7 @@ h4 {
 
 p {
 	font-family: 'Almoni ML v5 AAA';
+    font-size: 19.2px;
     font-size: 19.2px;
     font-size: 1.2rem;
     letter-spacing: -0.1px;
@@ -153,6 +162,7 @@ section:nth-child(even) {
 }
 
 button {
+    font-family: 'Almoni ML v5 AAA';
     background-color: var(--call2action);
     border: 0;
     outline: 0;
@@ -161,6 +171,8 @@ button {
     border-radius: 10px;
     -webkit-transition: 0.5s ease all;
     transition: 0.5s ease all;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 button:hover {
@@ -338,14 +350,43 @@ input[type="submit"]:hover {
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .hero_img .container h1 {
         text-align: right;
         text-shadow: 0 0 6px rgb(0 0 0);
         color: #fff;
+    }
+    
+    .hero_img button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    }
+    
+    .hero_img button img {
+        width: 25px;
+        margin-left: 10px;
     }
 
     .hero_img img {
@@ -405,7 +446,7 @@ input[type="submit"]:hover {
     .controls {
         display: block;
         position: absolute;
-        bottom: 85px;
+        bottom: 87px;
         right: 0;
         left: 0;
         margin-left:auto;
@@ -758,6 +799,7 @@ input[type="submit"]:hover {
     .icon_numbers h3 {
         font-size: 48px;
         font-size: 48px;
+        font-size: 48px;
         font-size: 3rem;
         margin: 0;
         color: rgb(80, 80, 80);
@@ -913,6 +955,7 @@ input[type="submit"]:hover {
 
     /* soon campaign */
     .soon_campaign .progress {
+        height: 32px;
         height: 2rem;
         border-radius: 10px;
         background-color: #fff;
@@ -1090,6 +1133,7 @@ input[type="submit"]:hover {
         color: var(--secondary-color);
         padding: 10px;
         font-size: 19.2px;
+        font-size: 19.2px;
         font-size: 1.2rem;
         font-family: 'Almoni ML v5 AAA';
     }
@@ -1135,6 +1179,28 @@ input[type="submit"]:hover {
         margin-bottom: 20px;
         background-color: #fff;
     }
+
+    .donate_map_box.open .campaign_numbers span{
+        color:var(--secondary-color);
+    }
+    .donate_map_box.open button{
+        background-color: var(--secondary-color);
+    }
+    .single_campaign_box.open .campaignImg .cd-image-container span {
+        background-color: var(--secondary-color);
+    }
+
+
+    .single_campaign_box.done .campaign_numbers span{
+        color:var(--call2action);
+    }
+    .donate_map_box.done .campaignData .progress .progress-bar {
+        background-color: var(--call2action);
+    }
+    .single_campaign_box.done .campaignImg .cd-image-container span {
+        background-color: var(--call2action);
+    }
+
 
     .campaignData button {
         width: 100%;
@@ -1296,6 +1362,7 @@ input[type="submit"]:hover {
 
     .sub_title h2 {
         font-size: 32px;
+        font-size: 32px;
         font-size: 2rem;
         text-align: right;
     }
@@ -1346,6 +1413,7 @@ input[type="submit"]:hover {
 
     .blog_content p {
         font-size: 19.2px;
+        font-size: 19.2px;
         font-size: 1.2rem;
         margin-bottom: 30px;
     }
@@ -1364,7 +1432,7 @@ input[type="submit"]:hover {
 
     .blog .imgBox {
         overflow: hidden;
-        max-height: 241px;
+        max-height: 340px;
     }
 
     .blog .imgBox img {
@@ -1399,8 +1467,11 @@ input[type="submit"]:hover {
     }
     
     .card-body {
-        flex: 1 1 auto;
-        padding: 0.8rem 0.8rem;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        padding: 16px 16px;
+        padding: 1rem 1rem;
     }
 
     h3.card-title {
@@ -1484,6 +1555,7 @@ input[type="submit"]:hover {
       .cd-image-label {
         background-color: var(--primery-color);
         border-radius: 10px;
+        font-size: 24px;
         font-size: 24px;
         font-size: 24px;
         font-size: 1.5rem;

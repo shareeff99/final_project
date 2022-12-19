@@ -25,11 +25,17 @@
     }
 
     .hero_img {
-        height: 500px;
+        max-height: 525px;
+        height: 466px;
+    }
+
+    #hero_btn {
+        display: none;
     }
 
     .hero_img img {
-        object-position: left;
+        -o-object-position: left;
+           object-position: left;
     }
 
     .hero_img .container h1 {
@@ -125,7 +131,11 @@
 
     input#f-email {
         text-align: center;
-        width: 70%;
+        width: 100%;
+    }
+
+    .email_form_box form input[type="submit"] {
+        width: 100%;
     }
 
     form input {
@@ -244,6 +254,11 @@
         height: 400px;
     }
 
+    .blog .imgBox {
+        overflow: hidden;
+        max-height: 196px;
+    }
+
 }
 
 
@@ -270,6 +285,10 @@
 
     /* active nav links */
     #myBody .nav-link.active:after {
+        display: none;
+    }
+
+    #hero_btn {
         display: none;
     }
 
@@ -642,6 +661,13 @@
     .blog .imgBox {
         max-height: 196px;
     }
+
+    .card-body {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+        padding: 0.8rem 0.8rem;
+    }
 }
 
 
@@ -708,6 +734,11 @@
     .sub_title h2 {
         font-size: 1.7rem;
     }
+
+    .blog .imgBox {
+        overflow: hidden;
+        max-height: 263px;
+    }
 }
 
 
@@ -744,6 +775,11 @@
     .hero_img.blog_post h2 {
         font-size: 1.8rem;
         max-width: 82%;
+    }
+
+    .blog .imgBox {
+        overflow: hidden;
+        max-height: 313px;
     }
 }
 

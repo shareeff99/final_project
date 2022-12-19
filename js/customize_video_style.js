@@ -12,6 +12,8 @@ var play_big_btn = document.getElementById("play_big_btn");
 
 var volumeBTN = document.querySelector("#volumeIcon");
 
+var hero_btn = document.getElementById("hero_btn")
+
 const currentTimeElement = videoPlayer.querySelector('.current');
 const durationTimeElement = videoPlayer.querySelector('.duration');
 
@@ -43,21 +45,13 @@ volumeBTN.addEventListener("click", ()=> {
   volumeBTN.classList.toggle("mute")
 })
 
-
-/*
-function toggleVolumeIcon() {
-  if (volumeBTN.className= "unMute") {
-    volumeBTN.className= "mute";
-  } 
-  else {
-    volumeBTN.className= "unMute";
-  }
-};
-
-volumeBTN.onclick = function () {
-  toggleVolumeIcon();
-};
-*/
+// hero play btn
+hero_btn.addEventListener("click",()=> {
+  window.location.href='#videoSection';
+  play_big_btn.style.opacity = "0";
+  btnPlayPause.className = "pause";
+  video.play();
+});
 
 
 
@@ -65,6 +59,8 @@ volumeBTN.onclick = function () {
 // volume
 volume.addEventListener("mousemove", (e) => {
   video.volume = e.target.value;
+  play_big_btn.style.opacity = "0";
+  video.play();
 });
 
 
